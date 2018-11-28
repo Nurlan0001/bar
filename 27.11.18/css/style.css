@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+    background-size: cover;
+    background-position:  center;
+    background-image: url("../images/img.jpg");
+}
+.Home{
+    
+    background-color: rgba(113, 66, 244, 0.7);
+    height:100vh;
+    display: none;
+
+}
+.about{
+    text-align: center;
+    padding-top: 300px;
+}
+li{
+    list-style-type: none;
+    font-size: 40px;
+}
+.icons{
+font-size: 40px;
+position: absolute;
+right: 20px;
+top: 30px;
+}
+.icons2{
+    font-size: 40px;
+    position: absolute;
+    right: 20px;
+    top: 30px;
+}
+.wrapper{
+    position: fixed;
+    right: 20px;
+    bottom: 0px;
+    border: 1px solid white;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 0;
+}
+.online{
+    width: 300px;
+    height: 40px;
+    background-color: teal;
+    text-align: center;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.online h6{
+    font-size: 30px;
+    color: white;
+}
+.Booking{
+    width: 300px;
+    height: 80px;
+    background-color: teal;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.Booking p{
+    padding: 20px 0px;
+    color: white;
+    font-style: italic;
+}
+.chat{
+    width: 300px;
+    height: 260px;
+    background: white;
+}
+hr{
+    color: #cfc9c9; 
+}
+ .write{
+     position: relative;
+    width: 300px;
+    border-top: 2px solid rgb(31, 29, 29);
+    border: none;
+}
+#write1{
+    width: 297px;
+    height: 30px;
+} 
+.write ul{
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: grey;
+    
+}
+.write li{
+    font-size: 20px;
+    padding: 7px;
+}
